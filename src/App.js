@@ -1,24 +1,37 @@
-import logo from './logo.svg';
+
 import './App.css';
+import User from "./user/User";
 
 function App() {
+  const usersMass = [
+      {name:'Baiaz',
+        age: 17,
+        position:'student'
+      },
+    {name:'Marsel',
+      age: 18,
+      position:'student'
+    },
+    {name:'Aidar',
+      age: 27,
+      position:'teacher'
+    },
+    {name:'Jhon',
+      age: 34,
+      position:'driver'
+    },
+    {name:'Alex',
+      age: 29,
+      position:'pilot'
+    },
+    {name:'Asel',
+      age: 40,
+      position:'chef'
+    }
+      ]
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <User usersMass = {usersMass}/>
   );
 }
 

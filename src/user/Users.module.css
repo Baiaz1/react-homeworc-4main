@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.extra{
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+margin-right: 50px;
+width: 100%;
+}
+
+
+h1{
+    font-size: 20px;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.dop{
+    display: flex;
+    flex-direction: row;
+}
